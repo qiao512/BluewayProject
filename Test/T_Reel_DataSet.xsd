@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="T_Reel_DataSet" targetNamespace="http://tempuri.org/T_Reel_DataSet.xsd" xmlns:mstns="http://tempuri.org/T_Reel_DataSet.xsd" xmlns="http://tempuri.org/T_Reel_DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="T_Reel_DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="T_Reel_DataSet" msprop:Generator_UserDSName="T_Reel_DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="IMS_REEL_DID" msprop:Generator_TableClassName="IMS_REEL_DIDDataTable" msprop:Generator_TableVarName="tableIMS_REEL_DID" msprop:Generator_TablePropName="IMS_REEL_DID" msprop:Generator_RowDeletingName="IMS_REEL_DIDRowDeleting" msprop:Generator_RowChangingName="IMS_REEL_DIDRowChanging" msprop:Generator_RowEvHandlerName="IMS_REEL_DIDRowChangeEventHandler" msprop:Generator_RowDeletedName="IMS_REEL_DIDRowDeleted" msprop:Generator_UserTableName="IMS_REEL_DID" msprop:Generator_RowChangedName="IMS_REEL_DIDRowChanged" msprop:Generator_RowEvArgName="IMS_REEL_DIDRowChangeEvent" msprop:Generator_RowClassName="IMS_REEL_DIDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="REEL_ID" msprop:Generator_ColumnVarNameInTable="columnREEL_ID" msprop:Generator_ColumnPropNameInRow="REEL_ID" msprop:Generator_ColumnPropNameInTable="REEL_IDColumn" msprop:Generator_UserColumnName="REEL_ID" type="xs:string" />
+              <xs:element name="REEL_SLD" msprop:Generator_ColumnVarNameInTable="columnREEL_SLD" msprop:Generator_ColumnPropNameInRow="REEL_SLD" msprop:Generator_ColumnPropNameInTable="REEL_SLDColumn" msprop:Generator_UserColumnName="REEL_SLD" type="xs:string" minOccurs="0" />
+              <xs:element name="ITEM_NO" msprop:Generator_ColumnVarNameInTable="columnITEM_NO" msprop:Generator_ColumnPropNameInRow="ITEM_NO" msprop:Generator_ColumnPropNameInTable="ITEM_NOColumn" msprop:Generator_UserColumnName="ITEM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="QTY" msprop:Generator_ColumnVarNameInTable="columnQTY" msprop:Generator_ColumnPropNameInRow="QTY" msprop:Generator_ColumnPropNameInTable="QTYColumn" msprop:Generator_UserColumnName="QTY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ORIGINAL_QTY" msprop:Generator_ColumnVarNameInTable="columnORIGINAL_QTY" msprop:Generator_ColumnPropNameInRow="ORIGINAL_QTY" msprop:Generator_ColumnPropNameInTable="ORIGINAL_QTYColumn" msprop:Generator_UserColumnName="ORIGINAL_QTY" type="xs:decimal" minOccurs="0" />
+              <xs:element name="REEL_VENDOR" msprop:Generator_ColumnVarNameInTable="columnREEL_VENDOR" msprop:Generator_ColumnPropNameInRow="REEL_VENDOR" msprop:Generator_ColumnPropNameInTable="REEL_VENDORColumn" msprop:Generator_UserColumnName="REEL_VENDOR" type="xs:string" minOccurs="0" />
+              <xs:element name="REEL_LOT" msprop:Generator_ColumnVarNameInTable="columnREEL_LOT" msprop:Generator_ColumnPropNameInRow="REEL_LOT" msprop:Generator_ColumnPropNameInTable="REEL_LOTColumn" msprop:Generator_UserColumnName="REEL_LOT" type="xs:string" minOccurs="0" />
+              <xs:element name="REEL_DATECODE" msprop:Generator_ColumnVarNameInTable="columnREEL_DATECODE" msprop:Generator_ColumnPropNameInRow="REEL_DATECODE" msprop:Generator_ColumnPropNameInTable="REEL_DATECODEColumn" msprop:Generator_UserColumnName="REEL_DATECODE" type="xs:string" minOccurs="0" />
+              <xs:element name="REEL_TYPE" msprop:Generator_ColumnVarNameInTable="columnREEL_TYPE" msprop:Generator_ColumnPropNameInRow="REEL_TYPE" msprop:Generator_ColumnPropNameInTable="REEL_TYPEColumn" msprop:Generator_UserColumnName="REEL_TYPE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CREATED_TIME" msprop:Generator_ColumnVarNameInTable="columnCREATED_TIME" msprop:Generator_ColumnPropNameInRow="CREATED_TIME" msprop:Generator_ColumnPropNameInTable="CREATED_TIMEColumn" msprop:Generator_UserColumnName="CREATED_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UPDATED_TIME" msprop:Generator_ColumnVarNameInTable="columnUPDATED_TIME" msprop:Generator_ColumnPropNameInRow="UPDATED_TIME" msprop:Generator_ColumnPropNameInTable="UPDATED_TIMEColumn" msprop:Generator_UserColumnName="UPDATED_TIME" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="IMS_REEL_LOC" msprop:Generator_TableClassName="IMS_REEL_LOCDataTable" msprop:Generator_TableVarName="tableIMS_REEL_LOC" msprop:Generator_TablePropName="IMS_REEL_LOC" msprop:Generator_RowDeletingName="IMS_REEL_LOCRowDeleting" msprop:Generator_RowChangingName="IMS_REEL_LOCRowChanging" msprop:Generator_RowEvHandlerName="IMS_REEL_LOCRowChangeEventHandler" msprop:Generator_RowDeletedName="IMS_REEL_LOCRowDeleted" msprop:Generator_UserTableName="IMS_REEL_LOC" msprop:Generator_RowChangedName="IMS_REEL_LOCRowChanged" msprop:Generator_RowEvArgName="IMS_REEL_LOCRowChangeEvent" msprop:Generator_RowClassName="IMS_REEL_LOCRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MACHINE_NAME" msprop:Generator_ColumnVarNameInTable="columnMACHINE_NAME" msprop:Generator_ColumnPropNameInRow="MACHINE_NAME" msprop:Generator_ColumnPropNameInTable="MACHINE_NAMEColumn" msprop:Generator_UserColumnName="MACHINE_NAME" type="xs:string" />
+              <xs:element name="LOC_NO" msprop:Generator_ColumnVarNameInTable="columnLOC_NO" msprop:Generator_ColumnPropNameInRow="LOC_NO" msprop:Generator_ColumnPropNameInTable="LOC_NOColumn" msprop:Generator_UserColumnName="LOC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="STAGENO" msprop:Generator_ColumnVarNameInTable="columnSTAGENO" msprop:Generator_ColumnPropNameInRow="STAGENO" msprop:Generator_ColumnPropNameInTable="STAGENOColumn" msprop:Generator_UserColumnName="STAGENO" type="xs:decimal" />
+              <xs:element name="GROUPKEY" msprop:Generator_ColumnVarNameInTable="columnGROUPKEY" msprop:Generator_ColumnPropNameInRow="GROUPKEY" msprop:Generator_ColumnPropNameInTable="GROUPKEYColumn" msprop:Generator_UserColumnName="GROUPKEY" type="xs:string" />
+              <xs:element name="CLASSDATA" msprop:Generator_ColumnVarNameInTable="columnCLASSDATA" msprop:Generator_ColumnPropNameInRow="CLASSDATA" msprop:Generator_ColumnPropNameInTable="CLASSDATAColumn" msprop:Generator_UserColumnName="CLASSDATA" type="xs:string" minOccurs="0" />
+              <xs:element name="POS" msprop:Generator_ColumnVarNameInTable="columnPOS" msprop:Generator_ColumnPropNameInRow="POS" msprop:Generator_ColumnPropNameInTable="POSColumn" msprop:Generator_UserColumnName="POS" type="xs:decimal" />
+              <xs:element name="SUBPOS" msprop:Generator_ColumnVarNameInTable="columnSUBPOS" msprop:Generator_ColumnPropNameInRow="SUBPOS" msprop:Generator_ColumnPropNameInTable="SUBPOSColumn" msprop:Generator_UserColumnName="SUBPOS" type="xs:decimal" />
+              <xs:element name="PARTNO" msprop:Generator_ColumnVarNameInTable="columnPARTNO" msprop:Generator_ColumnPropNameInRow="PARTNO" msprop:Generator_ColumnPropNameInTable="PARTNOColumn" msprop:Generator_UserColumnName="PARTNO" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC_FID_ID" msprop:Generator_ColumnVarNameInTable="columnLOC_FID_ID" msprop:Generator_ColumnPropNameInRow="LOC_FID_ID" msprop:Generator_ColumnPropNameInTable="LOC_FID_IDColumn" msprop:Generator_UserColumnName="LOC_FID_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC_REEL_ID" msprop:Generator_ColumnVarNameInTable="columnLOC_REEL_ID" msprop:Generator_ColumnPropNameInRow="LOC_REEL_ID" msprop:Generator_ColumnPropNameInTable="LOC_REEL_IDColumn" msprop:Generator_UserColumnName="LOC_REEL_ID" type="xs:string" />
+              <xs:element name="LOC_RMT" msprop:Generator_ColumnVarNameInTable="columnLOC_RMT" msprop:Generator_ColumnPropNameInRow="LOC_RMT" msprop:Generator_ColumnPropNameInTable="LOC_RMTColumn" msprop:Generator_UserColumnName="LOC_RMT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LOC_RMB" msprop:Generator_ColumnVarNameInTable="columnLOC_RMB" msprop:Generator_ColumnPropNameInRow="LOC_RMB" msprop:Generator_ColumnPropNameInTable="LOC_RMBColumn" msprop:Generator_UserColumnName="LOC_RMB" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CREATED_DATE" msprop:Generator_ColumnVarNameInTable="columnCREATED_DATE" msprop:Generator_ColumnPropNameInRow="CREATED_DATE" msprop:Generator_ColumnPropNameInTable="CREATED_DATEColumn" msprop:Generator_UserColumnName="CREATED_DATE" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UPDATED_TIME" msprop:Generator_ColumnVarNameInTable="columnUPDATED_TIME" msprop:Generator_ColumnPropNameInRow="UPDATED_TIME" msprop:Generator_ColumnPropNameInTable="UPDATED_TIMEColumn" msprop:Generator_UserColumnName="UPDATED_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="P_TIMESTAMP" msprop:Generator_ColumnVarNameInTable="columnP_TIMESTAMP" msprop:Generator_ColumnPropNameInRow="P_TIMESTAMP" msprop:Generator_ColumnPropNameInTable="P_TIMESTAMPColumn" msprop:Generator_UserColumnName="P_TIMESTAMP" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="IMS_WO_REEL" msprop:Generator_TableClassName="IMS_WO_REELDataTable" msprop:Generator_TableVarName="tableIMS_WO_REEL" msprop:Generator_TablePropName="IMS_WO_REEL" msprop:Generator_RowDeletingName="IMS_WO_REELRowDeleting" msprop:Generator_RowChangingName="IMS_WO_REELRowChanging" msprop:Generator_RowEvHandlerName="IMS_WO_REELRowChangeEventHandler" msprop:Generator_RowDeletedName="IMS_WO_REELRowDeleted" msprop:Generator_UserTableName="IMS_WO_REEL" msprop:Generator_RowChangedName="IMS_WO_REELRowChanged" msprop:Generator_RowEvArgName="IMS_WO_REELRowChangeEvent" msprop:Generator_RowClassName="IMS_WO_REELRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:decimal" />
+              <xs:element name="MACHINE_NAME" msprop:Generator_ColumnVarNameInTable="columnMACHINE_NAME" msprop:Generator_ColumnPropNameInRow="MACHINE_NAME" msprop:Generator_ColumnPropNameInTable="MACHINE_NAMEColumn" msprop:Generator_UserColumnName="MACHINE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="REEL_ID" msprop:Generator_ColumnVarNameInTable="columnREEL_ID" msprop:Generator_ColumnPropNameInRow="REEL_ID" msprop:Generator_ColumnPropNameInTable="REEL_IDColumn" msprop:Generator_UserColumnName="REEL_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="WO" msprop:Generator_ColumnVarNameInTable="columnWO" msprop:Generator_ColumnPropNameInRow="WO" msprop:Generator_ColumnPropNameInTable="WOColumn" msprop:Generator_UserColumnName="WO" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC_NO" msprop:Generator_ColumnVarNameInTable="columnLOC_NO" msprop:Generator_ColumnPropNameInRow="LOC_NO" msprop:Generator_ColumnPropNameInTable="LOC_NOColumn" msprop:Generator_UserColumnName="LOC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="IS_SUB" msprop:Generator_ColumnVarNameInTable="columnIS_SUB" msprop:Generator_ColumnPropNameInRow="IS_SUB" msprop:Generator_ColumnPropNameInTable="IS_SUBColumn" msprop:Generator_UserColumnName="IS_SUB" type="xs:string" minOccurs="0" />
+              <xs:element name="PLACED_TIME" msprop:Generator_ColumnVarNameInTable="columnPLACED_TIME" msprop:Generator_ColumnPropNameInRow="PLACED_TIME" msprop:Generator_ColumnPropNameInTable="PLACED_TIMEColumn" msprop:Generator_UserColumnName="PLACED_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="STATUS" msprop:Generator_ColumnVarNameInTable="columnSTATUS" msprop:Generator_ColumnPropNameInRow="STATUS" msprop:Generator_ColumnPropNameInTable="STATUSColumn" msprop:Generator_UserColumnName="STATUS" type="xs:string" minOccurs="0" />
+              <xs:element name="ITEM_NO" msprop:Generator_ColumnVarNameInTable="columnITEM_NO" msprop:Generator_ColumnPropNameInRow="ITEM_NO" msprop:Generator_ColumnPropNameInTable="ITEM_NOColumn" msprop:Generator_UserColumnName="ITEM_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="PART_NO" msprop:Generator_ColumnVarNameInTable="columnPART_NO" msprop:Generator_ColumnPropNameInRow="PART_NO" msprop:Generator_ColumnPropNameInTable="PART_NOColumn" msprop:Generator_UserColumnName="PART_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="PART_DESC" msprop:Generator_ColumnVarNameInTable="columnPART_DESC" msprop:Generator_ColumnPropNameInRow="PART_DESC" msprop:Generator_ColumnPropNameInTable="PART_DESCColumn" msprop:Generator_UserColumnName="PART_DESC" type="xs:string" minOccurs="0" />
+              <xs:element name="MO" msprop:Generator_ColumnVarNameInTable="columnMO" msprop:Generator_ColumnPropNameInRow="MO" msprop:Generator_ColumnPropNameInTable="MOColumn" msprop:Generator_UserColumnName="MO" type="xs:string" minOccurs="0" />
+              <xs:element name="CREATED_TIME" msprop:Generator_ColumnVarNameInTable="columnCREATED_TIME" msprop:Generator_ColumnPropNameInRow="CREATED_TIME" msprop:Generator_ColumnPropNameInTable="CREATED_TIMEColumn" msprop:Generator_UserColumnName="CREATED_TIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="UPDATED_TIME" msprop:Generator_ColumnVarNameInTable="columnUPDATED_TIME" msprop:Generator_ColumnPropNameInRow="UPDATED_TIME" msprop:Generator_ColumnPropNameInTable="UPDATED_TIMEColumn" msprop:Generator_UserColumnName="UPDATED_TIME" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="IMS_LOC_KANBAN" msprop:Generator_TableClassName="IMS_LOC_KANBANDataTable" msprop:Generator_TableVarName="tableIMS_LOC_KANBAN" msprop:Generator_TablePropName="IMS_LOC_KANBAN" msprop:Generator_RowDeletingName="IMS_LOC_KANBANRowDeleting" msprop:Generator_RowChangingName="IMS_LOC_KANBANRowChanging" msprop:Generator_RowEvHandlerName="IMS_LOC_KANBANRowChangeEventHandler" msprop:Generator_RowDeletedName="IMS_LOC_KANBANRowDeleted" msprop:Generator_UserTableName="IMS_LOC_KANBAN" msprop:Generator_RowChangedName="IMS_LOC_KANBANRowChanged" msprop:Generator_RowEvArgName="IMS_LOC_KANBANRowChangeEvent" msprop:Generator_RowClassName="IMS_LOC_KANBANRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MACHINE_NAME" msprop:Generator_ColumnVarNameInTable="columnMACHINE_NAME" msprop:Generator_ColumnPropNameInRow="MACHINE_NAME" msprop:Generator_ColumnPropNameInTable="MACHINE_NAMEColumn" msprop:Generator_UserColumnName="MACHINE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC_NO" msprop:Generator_ColumnVarNameInTable="columnLOC_NO" msprop:Generator_ColumnPropNameInRow="LOC_NO" msprop:Generator_ColumnPropNameInTable="LOC_NOColumn" msprop:Generator_UserColumnName="LOC_NO" type="xs:string" minOccurs="0" />
+              <xs:element name="PARTNO" msprop:Generator_ColumnVarNameInTable="columnPARTNO" msprop:Generator_ColumnPropNameInRow="PARTNO" msprop:Generator_ColumnPropNameInTable="PARTNOColumn" msprop:Generator_UserColumnName="PARTNO" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC_FID_ID" msprop:Generator_ColumnVarNameInTable="columnLOC_FID_ID" msprop:Generator_ColumnPropNameInRow="LOC_FID_ID" msprop:Generator_ColumnPropNameInTable="LOC_FID_IDColumn" msprop:Generator_UserColumnName="LOC_FID_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC_REEL_ID" msprop:Generator_ColumnVarNameInTable="columnLOC_REEL_ID" msprop:Generator_ColumnPropNameInRow="LOC_REEL_ID" msprop:Generator_ColumnPropNameInTable="LOC_REEL_IDColumn" msprop:Generator_UserColumnName="LOC_REEL_ID" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC_RMT" msprop:Generator_ColumnVarNameInTable="columnLOC_RMT" msprop:Generator_ColumnPropNameInRow="LOC_RMT" msprop:Generator_ColumnPropNameInTable="LOC_RMTColumn" msprop:Generator_UserColumnName="LOC_RMT" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC_RMB" msprop:Generator_ColumnVarNameInTable="columnLOC_RMB" msprop:Generator_ColumnPropNameInRow="LOC_RMB" msprop:Generator_ColumnPropNameInTable="LOC_RMBColumn" msprop:Generator_UserColumnName="LOC_RMB" type="xs:string" minOccurs="0" />
+              <xs:element name="LOC_QTY" msprop:Generator_ColumnVarNameInTable="columnLOC_QTY" msprop:Generator_ColumnPropNameInRow="LOC_QTY" msprop:Generator_ColumnPropNameInTable="LOC_QTYColumn" msprop:Generator_UserColumnName="LOC_QTY" type="xs:string" minOccurs="0" />
+              <xs:element name="URGENT_LEVEL" msprop:Generator_ColumnVarNameInTable="columnURGENT_LEVEL" msprop:Generator_ColumnPropNameInRow="URGENT_LEVEL" msprop:Generator_ColumnPropNameInTable="URGENT_LEVELColumn" msprop:Generator_UserColumnName="URGENT_LEVEL" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:IMS_REEL_DID" />
+      <xs:field xpath="mstns:REEL_ID" />
+    </xs:unique>
+    <xs:unique name="IMS_REEL_LOC_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:IMS_REEL_LOC" />
+      <xs:field xpath="mstns:MACHINE_NAME" />
+      <xs:field xpath="mstns:STAGENO" />
+      <xs:field xpath="mstns:GROUPKEY" />
+      <xs:field xpath="mstns:POS" />
+      <xs:field xpath="mstns:SUBPOS" />
+      <xs:field xpath="mstns:LOC_REEL_ID" />
+    </xs:unique>
+    <xs:unique name="IMS_WO_REEL_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:IMS_WO_REEL" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
